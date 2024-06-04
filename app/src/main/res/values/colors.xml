@@ -4,5 +4,6 @@
     <color name="secondary">#0c0214</color>
     <color name="accent">#fdfdfd</color>
     <color name="variant">#87828a</color>
+    <color name="detailItem">#0d0213</color>
     <color name="background_card">#1f1f1f</color>
 </resources>

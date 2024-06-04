@@ -54,9 +54,9 @@
 
     <Button
         android:id="@+id/button_explore"
-        android:layout_width="260dp"
+        android:layout_width="300dp"
         android:layout_height="70dp"
-        android:background="@drawable/rounded_button"
+        android:background="@drawable/home_page_button"
         android:text="@string/button_text"
         android:textColor="@color/accent"
         android:textSize="18sp"
