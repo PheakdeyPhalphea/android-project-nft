@@ -18,6 +18,7 @@ public class HomeScreen extends AppCompatActivity {
         setContentView(R.layout.activity_home);
         RelativeLayout cardLayout = findViewById(R.id.cardLayout1);
         Button button = findViewById(R.id.circular_button);
+        Button buttonArt = findViewById(R.id.buttonArt);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -30,6 +31,13 @@ public class HomeScreen extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(HomeScreen.this, DetailItem.class);
+                startActivities(new Intent[]{intent});
+            }
+        });
+        buttonArt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(HomeScreen.this, AboutUs.class);
                 startActivities(new Intent[]{intent});
             }
         });
